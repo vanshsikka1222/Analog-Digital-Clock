@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Analog & Digital Clock - By Vansh Sikka</title>
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Audio -->
+    <audio id="myAudio" autoplay muted>
+        <source src="./Clock Sound.mp3" type="audio/mp3">
+    </audio>
+    <h1 class="title">Analog & Digital Clock</h1>
+    <div class="box">
+        <div id="clock">
+            <!-- Hour Line -->
+            <div class="hLine" id="hLine">
+                <div class="clock_number">00</div>
+                <div class="clock_number">00</div>
+                <div class="clock_number">00</div>
+            </div>
+    
+            <!-- Minute Line -->
+            <div class="mLine" id="mLine">
+                <div class="clock_number">00</div>
+                <div class="clock_number">00</div>
+                <div class="clock_number">00</div>
+                <div class="clock_number">00</div>
+                <div class="clock_number">00</div>
+            </div>
+            
+            <!-- Second Line -->
+            <div class="sLine" id="sLine">
+                <div class="clock_number">00</div>
+                <div class="clock_number">00</div>
+                <div class="clock_number">00</div>
+                <div class="clock_number">00</div>
+                <div class="clock_number">00</div>
+                <div class="clock_number">00</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JS Code  -->
+    <script src="script.js"></script>
+</body>
+</html>
